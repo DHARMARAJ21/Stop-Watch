@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://t4.ftcdn.net/jpg/01/11/00/87/360_F_111008744_ovULjX0QKQkULQfXfCxAItZfZE6rOvg3.jpg);
+    background-size: cover;
+    color: #070711;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 22%;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 40px;
+    color:#f72323;
+    font-family:'Times New Roman', Times, serif;
+}
+.stopwatch-container {
+    background: transparent;
+    border: 2px solid #f72323;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    margin-left: 10px;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    
+    background-color: #fc1313;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.controls button:hover{
+    background-color: #e24747;
+}
+
+#laps {
+    margin-top: 10px;
+    text-align: center;
+}
